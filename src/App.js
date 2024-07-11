@@ -39,6 +39,18 @@ function App() {
             {" "}
             Github
           </a>{" "}
+          <br />
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://icons8.com/icon/tgZbSpOhzqyY/open-book"
+          >
+            Book
+          </a>{" "}
+          icon by{" "}
+          <a target="_blank" rel="noreferrer" href="https://icons8.com">
+            Icons8
+          </a>
         </footer>
       </div>
     </div>

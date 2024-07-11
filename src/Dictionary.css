@@ -1,4 +1,10 @@
 .Dictionary{
-  background: rgb(227, 166, 68);
+  background-image:url("../images/icons8-bookmark-1500.png");
+  background-repeat: no-repeat;
+  background-position: center;
   margin: 5px 0;
 }
+.example{
+  color: rgb(168, 14, 165);
+}
+background: rgb(227, 166, 68);
