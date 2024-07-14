@@ -9,7 +9,7 @@ function App() {
           <p>Dictionary Book</p>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="rainbow"/>
         </main>
         <footer className="App-footer">
           {" "}

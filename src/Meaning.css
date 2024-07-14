@@ -1,0 +1,21 @@
+.Meaning {
+  margin: 5px;
+  border-top-style: dashed;
+  border-color: rgb(85, 114, 117);
+  border-width: 1px;
+}
+.Meaning .leftSide h6 {
+  font-size: 17px;
+  margin-bottom: 3px;
+  margin-top: 5px;
+}
+.Meaning .leftSide p {
+  line-height: 1.5;
+  font-size: 16px;
+}
+.Meaning .rightSide {
+  margin-top: 5px;
+}
+.opposites {
+  margin: 0;
+}

@@ -5,6 +5,7 @@
   max-width: 850px;
   background-color: rgba(210, 232, 230, 0.788);
   border-radius: 10px;
+  padding:5px;
 }
 
 .App-header {
