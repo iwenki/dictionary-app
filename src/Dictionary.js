@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Dictionary.css";
 import Result from "./Result";
+import Photos from "./Photos";
 
 
 export default function Dictionary(props) {
   let [Keyword, setKeyword] = useState(props.defaultKeyword);
   let [Definitions, setDefinitions] = useState(null);
+  let [Pictures, setPictures]= useState(null);
   let [loaded, setLoaded] = useState(false);
   
 
@@ -18,7 +20,7 @@ export default function Dictionary(props) {
     setDefinitions(response.data);
   }
   function handlePhotosResponse(response) {
-    console.log(response.data.photos);
+    setPictures(response.data.photos);
   }
   function search() {
     let apiKey = "cbc90ba0a21t28a990f44b7f6f3ea68o";
@@ -53,6 +55,7 @@ export default function Dictionary(props) {
           />
         </form>
         <Result results={Definitions} />
+        <Photos photos={Pictures}/>
         
       </div>
     );
