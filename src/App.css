@@ -1,15 +1,13 @@
 .App {
   text-align: center;
-  background-image:url("../images/icons8-bookmark-1500.png") ;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:auto;
+  background: radial-gradient(circle at 10% 20%, rgba(253, 239, 132, 0.204) 0%, rgba(247, 198, 169, 0.504) 54.2%, rgba(21, 187, 196, 0.455) 100.3%);
 }
 .container{
   max-width: 850px;
   background-color: rgba(210, 232, 230, 0.788);
   border-radius: 10px;
   padding:15px;
+  box-shadow: -10px 10px 15px 1px rgba(0, 0, 0, 0.2);
 }
 
 .App-header {
@@ -17,7 +15,9 @@
   margin: 5px 0;
   align-items: center;
   font-size: 40px;
-  color: white;
+  color: rgb(243, 227, 227);
+  border-radius: 2px;
+  font-family: "Lora", serif;
 }
 
 .App-link {

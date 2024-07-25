@@ -1,7 +1,14 @@
+.Results{
+  background: radial-gradient(circle at 10% 20%, rgba(250, 255, 253, 0.557) 0.1%, rgba(233, 226, 226, 0.317) 90.1%);
+  border-radius: 2px;
+  box-shadow: -10px 10px 15px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
 .Results h2{
   font-size:32px;
   line-height: 1.5;
   font-weight:bold;
+  font-family:"Lora", serif;
 }
 .Results h5{
   margin-bottom: 10px;

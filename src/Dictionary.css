@@ -4,6 +4,7 @@
 .Dictionary h4{
   margin-top:5px;
   font-size:20px;
+  font-family: "Lora", serif;
 }
 .Dictionary input {
   width: 50%;
@@ -12,5 +13,6 @@
   border-radius: 3px;
   border: 1px solid #5c5b5b;
   color: #282c34;
+  font-family: "Manrope", sans-serif;
 }
 
